@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            text-align: left;
+            font-size: 30px; 
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #281d5a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .card-body, .modal-body, .form {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="c:\Users\herow\Downloads\64816006b11ff55138c6962a_Thumbnail-00135.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Healthcare Website
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#social-media">Social Media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signup.html">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <section id="home" class="mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Welcome to Our Healthcare Website</h1>
+                    <p>Your health is our priority.we are dedicated to providing exceptional medical services and personalized care to our patients. Our mission is to improve the health and well-being of the communities we serve through compassionate care, cutting-edge treatments, and a patient-centered approach.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="c:\Users\herow\Downloads\6364b6fd26e2983848b93d7d_Cv_drawkit_Medical___Health_Workers-min.png" class="img-fluid animated-image" alt="Healthcare Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="mt-5 pt-5">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>We offer a comprehensive range of medical services to meet your health needs. Our experienced team of healthcare professionals is committed to delivering the highest quality care in a welcoming and supportive environment. Our services include:</p>
+            <ul>
+                <li>General Checkup: includes Dental treatment, MRI, etc.</li>
+                <li>Emergency Services</li>
+                <li>Specialist Consultations</li>
+                <li>Health Screenings</li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Primary care</h5>
+                            <p class="card-text">Comprehensive health management for all ages, focusing on prevention, wellness, and chronic disease management.</p>
+                            <h5 class="card-title">Speciality care</h5>
+                            <p class="card-text">Expert treatment in various medical specialties including cardiology, dermatology, orthopedics, and more.</p>
+                            <h5 class="card-title">Diagnostic Service</h5>
+                            <p class="card-text">State-of-the-art diagnostic testing and imaging services to accurately diagnose and monitor your health conditions.</p>
+                            <h5 class="card-title">Surgical Service</h5>
+                            <p class="card-text">Advanced surgical procedures performed by skilled surgeons using the latest techniques and technology.</p>
+                            <h5 class="card-title">Emergency care</h5>
+                            <p class="card-text">Immediate and efficient care for urgent medical conditions and injuries, available 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="c:\Users\herow\Downloads\6364b6fd26e2980dd4b93de0_Cv_drawkit_Health & Medical Illustrations-min.png" class="img-fluid animated-image" alt="Healthcare Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="mt-5 pt-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best healthcare services. Feel free to let us know whatever you are worrying about.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Mission</h5>
+                            <p class="card-text">To provide high-quality healthcare services.</p>
+                        </div>
+                    </div>
+                </div>
+                <section id="contact" class="mt-5 pt-5">
+                    <div class="container">
+                        <h2>Contact Us</h2>
+                        <p>We are here to help you with any questions or concerns. Please feel free to reach out to us:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="c:\Users\herow\Downloads\saptarsi.jpg" class="img-fluid rounded-circle" alt="Contact Image">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Member 1</h5>
+                                                <p class="card-text"><strong>Phone:</strong> Member 1 Phone Number</p>
+                                                <p class="card-text"><strong>Email:</strong> Member 1 Email Address</p>
+                                                <p class="card-text"><strong>Address:</strong> Member 1 Physical Address</p>
+                                                <p class="card-text"><small class="text-muted">Visit our website regularly for updates, health tips, and information about our services.</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="c:\Users\herow\Downloads\swati.jpg" class="img-fluid rounded-circle" alt="Contact Image">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Member 2</h5>
+                                                <p class="card-text"><strong>Phone:</strong> Member 2 Phone Number</p>
+                                                <p class="card-text"><strong>Email:</strong> Member 2 Email Address</p>
+                                                <p class="card-text"><strong>Address:</strong> Member 2 Physical Address</p>
+                                                <p class="card-text"><small class="text-muted">Visit our website regularly for updates, health tips, and information about our services.</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+    </section>
+
+
+
+    <section id="reviews" class="mt-5 pt-5">
+        <div class="container">
+            <h2>Reviews</h2>
+            <p>See what our patients have to say about us!</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Patient Review</h5>
+                            <p class="card-text">"Excellent service and care."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="c:\Users\herow\Downloads\3d-render-hand-adding-removing-rating-star_107791-16382.jpg" class="img-fluid animated-image" alt="Healthcare Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+
+
+    <section id="social-media" class="mt-5 pt-5">
+        <div class="container">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="#"><img src="c:\Users\herow\Downloads\6364b6fd26e2981775b9392d_drawkit-facebook.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Facebook</a></li>
+                <li><a href="#"><img src="c:\Users\herow\Downloads\6364b6fd26e29860b5b9392b_drawkit-twitter.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Twitter</a></li>
+                <li><a href="#"><img src="c:\Users\herow\Downloads\6364b6fd26e298eac0b939ee_DrawKit-instagram.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Instagram</a></li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Follow Us</h5>
+                            <p class="card-text">Stay connected through our social media channels.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="path/to/your/image.jpg" class="img-fluid animated-image" alt="Healthcare Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 pt-5 bg-dark text-white">
+    <div class="container-fluid text-center">
+        <p>&copy; 2024 Healthcare Website</p>
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="Go to Top"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+    </script>
+</body>
+</html>
